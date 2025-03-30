@@ -9,13 +9,12 @@
 This repository contains my **personal solutions** to algorithm and data structure problems, mostly written in **Python** and **C/C++**.  
 The goal is to **strengthen problem-solving skills**, prepare for **coding interviews**, and reinforce **computer science fundamentals**.
 
-Problems are inspired by platforms like **LeetCode**, **CS50**, and other online judges.
+Problems are inspired by platforms like **LeetCode**, and other online judges.
 
 ## ▌ Repository Status 📈
 
 ### ■ **Organized by platform and topic**  
 ▸ LeetCode solutions (Python)  
-▸ CS50-inspired problems (C / Python)  
 ▸ Custom logic exercises for learning and experimentation  
 
 ### ■ **Actively maintained**  
@@ -54,7 +53,7 @@ Sometimes, notes or explanation files
 ### ▌ **Technologies Used**
 ▸ Languages: Python, C, C++
 ▸ Tools: VSCode, g++, Python3 CLI
-▸ Platforms: LeetCode, CS50, custom challenges
+▸ Platforms: LeetCode, custom challenges
 
 ## 📜 **License**
 This repository is open for learning and collaboration.

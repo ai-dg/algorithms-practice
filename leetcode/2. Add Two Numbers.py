@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/add-two-numbers/
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, val=0, next=None):
@@ -6,6 +7,7 @@ class ListNode(object):
 
 
 class Solution(object):
+    # Getting true number from linked-list
     def getting_number(self, l):
         index = 1
         number = 0
@@ -15,7 +17,8 @@ class Solution(object):
             index *= 10
             l = l.next
         return number
-        
+    
+    # Adding final result to a linked-list
     def getting_reverse_list(self, number):
         number_to_add = int(number % 10)
         number = number // 10
@@ -40,6 +43,7 @@ class Solution(object):
         total = number1 + number2
         return self.getting_reverse_list(total)
 
+# Filling list to linked-list (for testing)
 def filling_list(nums):
     start = ListNode()
     current = start
@@ -49,7 +53,8 @@ def filling_list(nums):
         current = current.next
     
     return start.next
-        
+
+# Showing the result
 def main():
     l1 = filling_list([9,9,9,9,9,9,9])
     l2 = filling_list([9,9,9,9])

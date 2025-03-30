@@ -1,4 +1,4 @@
-
+# https://leetcode.com/problems/two-sum/description/
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -11,9 +11,9 @@ class Solution(object):
             if index >= len(nums):
                 return []  
             result = target - nums[index]
+            # Finding the number from value - target
             if result in reductions:
                 return [reductions[result], index]
-
             reductions[nums[index]] = index
             return recursivite(index + 1, reductions)
 

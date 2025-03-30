@@ -39,6 +39,7 @@ Problems are inspired by platforms like **LeetCode**, **CS50**, and other online
 ```sh
 git clone https://github.com/ai-dg/algorithms-practice.git
 cd algorithms-practice
+```
 
 ### ■ **Explore folders**
 Each folder represents a different platform or topic.
@@ -55,7 +56,7 @@ Sometimes, notes or explanation files
 ▸ Tools: VSCode, g++, Python3 CLI
 ▸ Platforms: LeetCode, CS50, custom challenges
 
-## 📜 License
+## 📜 **License**
 This repository is open for learning and collaboration.
 If you use these solutions for practice, feel free to contribute improvements or explanations.
 Avoid direct copy-pasting for assignments or schoolwork – understanding comes first!

@@ -1,7 +1,5 @@
 # algorithms-practice - Algorithm & Data Structure Challenges
 
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/algorithm/algorithm.png" width="500">
-
 📌 **Personal Practice Repository – Algorithmic Problem Solving & Coding Interview Prep**
 
 ## ▌ Description

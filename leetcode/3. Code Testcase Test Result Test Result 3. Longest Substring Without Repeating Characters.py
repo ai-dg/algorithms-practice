@@ -12,20 +12,27 @@ class Solution(object):
         temp = deque()
         double = set()
 
+        # Recursion method in python O(n)
         def recursivite(s, index, letters, temp, double):
+            
+            # Go back at the end of the string
             if index >= len(s):
                 if len(temp) > len(letters):
                     letters.clear()
                     letters.extend(temp)
                 return
 
+            # Removing until repeated letter
             while s[index] in double:
                 removed = temp.popleft()
+                # Unordered list to check doubles
                 double.remove(removed)
 
+            # Adding each character into temp
             temp.append(s[index])            
             double.add(s[index])
 
+            # Adding the biggest sequence without repetition into letters list
             if len(temp) > len(letters):
                 letters.clear()
                 letters.extend(temp)

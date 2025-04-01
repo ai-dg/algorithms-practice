@@ -7,12 +7,8 @@ class Solution:
         median = 0
         numbers = []
         numbers.extend(nums1)
-        numbers.extend(nums2)
-
-        numbers = self.binary_sort(numbers)
-        
-
-        # numbers.sort()
+        numbers.extend(nums2)      
+        numbers.sort()
         length = len(numbers)
         median = 0
         if length % 2 == 0:

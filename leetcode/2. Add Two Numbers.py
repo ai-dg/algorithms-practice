@@ -5,7 +5,6 @@ class ListNode(object):
         self.val = val
         self.next = next
 
-
 class Solution(object):
     # Getting true number from linked-list
     def getting_number(self, l):

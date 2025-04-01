@@ -6,7 +6,6 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-
         def recursivite(index, reductions):
             if index >= len(nums):
                 return []  

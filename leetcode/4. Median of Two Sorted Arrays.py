@@ -3,6 +3,7 @@
 from typing import List
 
 class Solution:
+    # This is not an O(log(m + n)) method, just a simple solution to this problem
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         median = 0
         numbers = []

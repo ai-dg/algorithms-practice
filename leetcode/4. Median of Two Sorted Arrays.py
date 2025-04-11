@@ -52,11 +52,7 @@ class Solution:
 
     
 
-        # numbers.sort()
-        
-
-
-   
+        # numbers.sort() 
 
 def main():
     nums1 = [1, 3]

@@ -8,6 +8,7 @@ This repository contains my **personal solutions** to algorithm and data structu
 The goal is to **strengthen problem-solving skills**, prepare for **coding interviews**, and reinforce **computer science fundamentals**.
 
 Problems are inspired by platforms like **LeetCode**, and other online judges.
+<img width="2998" height="1259" alt="image" src="https://github.com/user-attachments/assets/230def83-119f-4b2f-b30e-0e0b383f757e" />
 
 ```mermaid
 flowchart TB

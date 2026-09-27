@@ -4,10 +4,10 @@
 
 ## ▌ Description
 
-This repository contains my **personal solutions** to algorithm and data structure problems, mostly written in **Python** and **C/C++**.  
+This repository contains my **personal solutions** to algorithm and data structure problems, written in **Python**.  
 The goal is to **strengthen problem-solving skills**, prepare for **coding interviews**, and reinforce **computer science fundamentals**.
 
-Problems are inspired by platforms like **LeetCode**, and other online judges.
+Problems come from **LeetCode** and **HackerRank**.
 <!-- <img width="2998" height="1259" alt="image" src="https://github.com/user-attachments/assets/230def83-119f-4b2f-b30e-0e0b383f757e" /> -->
 
 ```mermaid
@@ -50,7 +50,7 @@ flowchart TB
 
 ### ■ **Organized by platform and topic**  
 ▸ LeetCode solutions (Python)  
-▸ Custom logic exercises for learning and experimentation  
+▸ HackerRank exercises (Python)  
 
 ### ■ **Actively maintained**  
 ▸ New problems added regularly  
@@ -76,19 +76,15 @@ cd algorithms-practice
 ```
 
 ### ■ **Explore folders**
-Each folder represents a different platform or topic.
-Inside, you’ll find:
-
-The problem description (if needed)
-
-The code solution
-
-Sometimes, notes or explanation files
+```
+leetcode/python/   # LeetCode solutions, one file per problem: "<number>. <title>.py"
+HackerRank/        # HackerRank exercises
+```
 
 ### ▌ **Technologies Used**
-▸ Languages: Python, C, C++
-▸ Tools: VSCode, g++, Python3 CLI
-▸ Platforms: LeetCode, custom challenges
+▸ Language: Python 3.14 (project managed with uv)
+▸ Tools: VSCode, uv, black
+▸ Platforms: LeetCode, HackerRank
 
 ## 📜 **License**
 This repository is open for learning and collaboration.

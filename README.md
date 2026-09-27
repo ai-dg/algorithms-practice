@@ -10,6 +10,7 @@ The goal is to **strengthen problem-solving skills**, prepare for **coding inter
 Problems come from **LeetCode** and **HackerRank**.
 <img src="assets/overview.png" alt="algorithms-practice — overview" width="760">
 
+<!-- Old diagram, kept for reference; the overview image above replaces it.
 ```mermaid
 flowchart TB
     A[Pick a problem] --> B[Understand constraints]
@@ -45,6 +46,7 @@ flowchart TB
     class T1,T2,T3,T4,T5,T6,T7,T8 topics
 
 ```
+-->
 
 ## ▌ Repository Status 📈
 
